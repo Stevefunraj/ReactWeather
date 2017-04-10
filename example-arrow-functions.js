@@ -1,0 +1,52 @@
+
+/*
+var names = ['Steve', 'Praveen', 'Saqib'];
+
+//========================================================
+names.forEach(function(name){
+	console.log('forEach', name);
+});
+
+//========================================================
+names.forEach((name) => {
+	console.log('arrowFunc', name);
+});
+
+//========================================================
+names.forEach((name) => console.log(name));
+
+var returnMe = (name) => name + '..!';
+console.log(returnMe('Steve'));
+
+//========================================================
+var person = {
+	name: 'Steve',
+	greet: function(){
+		names.forEach((userName) => {
+			console.log(this.name + ' says Hello to ' + userName);
+		});
+	}
+};
+
+person.greet();
+*/
+
+//========================================================
+// Challenge Area
+function add(a, b){
+	return a + b;
+}
+
+// add Expression
+var addExpression = (a, b) => a + b;
+
+console.log(addExpression(10, 20));
+console.log(addExpression(120, 320));
+
+// add Statement 
+var addStatement = (a, b) => {
+	console.log("HEY buddy ");
+	return a + b;
+};
+
+console.log(addStatement(100, -200));
